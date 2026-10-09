@@ -1,0 +1,13 @@
+name: Dokploy Auto-Deploy Trigger
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Dokploy Webhook
+        run: |
+          curl -s -X POST -H "Content-Type: application/json" -H "x-github-event: push" -d '{"ref":"refs/heads/main"}' "http://69.62.106.189:3000/api/deploy/adk_webhook_ghpn_2026_auto"

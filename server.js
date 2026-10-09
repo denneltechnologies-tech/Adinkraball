@@ -234,6 +234,12 @@ function toCsv(rows) {
 async function handleApi(req, res, pathname) {
   const method = req.method;
 
+  // GET /api/health
+  if (method === 'GET' && pathname === '/api/health') {
+    sendJson(res, 200, { ok: true, status: 'healthy', timestamp: new Date().toISOString() });
+    return;
+  }
+
   // POST /api/admin/login
   if (method === 'POST' && pathname === '/api/admin/login') {
     const ip = req.socket.remoteAddress || 'unknown';
@@ -378,6 +384,22 @@ function serveStatic(req, res, pathname) {
   if (reqPath === '/' || reqPath === '') reqPath = '/index.html';
   if (reqPath === '/admin' || reqPath === '/admin/') reqPath = '/admin.html';
   if (['/landing', '/lead', '/join'].includes(reqPath)) reqPath = '/landing.html';
+
+  const normalized = reqPath.replace(/\\/g, '/');
+  if (
+    normalized.startsWith('/data') ||
+    normalized.startsWith('/.') ||
+    normalized.includes('/.') ||
+    normalized === '/server.js' ||
+    normalized === '/package.json' ||
+    normalized === '/package-lock.json' ||
+    normalized.toLowerCase() === '/dockerfile' ||
+    normalized.endsWith('.log')
+  ) {
+    res.writeHead(403, { 'Content-Type': 'text/plain; charset=utf-8' });
+    res.end('403 Forbidden');
+    return;
+  }
 
   const filePath = path.join(PUBLIC_DIR, reqPath);
 
