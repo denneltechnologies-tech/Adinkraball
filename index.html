@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GhPN Adinkra Ball 2026 — Ghanaian Professionals Network</title>
+  <meta name="description" content="The 5th Edition GhPN Adinkra Ball — April 11, 2026 in Dallas, Texas. An enchanting showcase of Ghanaian excellence. Purchase tickets, become a sponsor, and fund GhPN Scholarships.">
+  
+  <!-- Classical Editorial Fonts: Playfair Display + Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+  
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='16' fill='%230e3d2f'/><polygon points='50,18 61,39 85,41 67,57 72,80 50,68 28,80 33,57 15,41 39,39' fill='%23cba342'/></svg>">
+</head>
+<body>
+
+  <!-- Top Utility Bar (Institutional & Grounded) -->
+  <div class="top-utility-bar">
+    <div class="container utility-inner">
+      <div class="utility-left">
+        <span class="tag-origin">
+          <span class="flag-dot"></span>
+          <span>5th Edition GhPN Adinkra Ball • April 11, 2026 • Dallas, Texas</span>
+        </span>
+      </div>
+      <div class="utility-right">
+        <a href="https://ghpn.org/event/adinkra-ball/" class="utility-link">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="4" rx="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+          <span>Save the Date: April 11, 2026</span>
+        </a>
+        <a href="#events" class="utility-link" onclick="switchView('events')">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 0L5 15c-1.5-1.5-3-3.2-3-5.5"/></svg>
+          <span>Purchase Tickets & Sponsor</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Primary Header -->
+  <header class="main-header" id="mainHeader">
+    <div class="container header-inner">
+      <div class="brand-identity" onclick="switchView('home')">
+        <div class="brand-crest">
+          <svg viewBox="0 0 24 24">
+            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+          </svg>
+        </div>
+        <div class="brand-words">
+          <span class="brand-title">Adinkra Ball — GhPN</span>
+          <span class="brand-subtitle">Ghanaian Professionals Network</span>
+        </div>
+      </div>
+
+      <!-- Navigation Menu -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active" data-nav="home" onclick="switchView('home')">Adinkra Ball</a>
+        <a href="#events" class="nav-link" data-nav="events" onclick="switchView('events')">Tickets & Sponsors</a>
+        <a href="#about" class="nav-link" data-nav="about" onclick="switchView('about')">About GhPN</a>
+        <a href="#membership" class="nav-link" data-nav="membership" onclick="switchView('membership')">Membership</a>
+        <a href="#donate" class="nav-link" data-nav="donate" onclick="switchView('donate')">Donate</a>
+        <a href="#contact" class="nav-link" data-nav="contact" onclick="switchView('contact')">Contact</a>
+      </nav>
+
+      <!-- Action Area -->
+      <div class="header-actions">
+        <button class="theme-toggle-btn" id="themeToggleBtn" title="Toggle Theme" aria-label="Toggle Theme">
+          <svg id="themeIconSun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+          <svg id="themeIconMoon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </button>
+
+        <button class="btn btn-primary btn-sm" onclick="openModal('modal-join')">Join Network</button>
+
+        <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle Menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- =========================================================================
+       VIEW 1: OVERVIEW / HOME (Magazine Editorial Style)
+       ========================================================================= -->
+  <main class="page-view active-view" id="view-home">
+
+    <!-- Editorial Magazine Split Hero: Adinkra Ball Focus -->
+    <section class="hero-editorial">
+      <div class="container hero-editorial-grid">
+        <div class="hero-editorial-copy">
+          <span class="hero-meta-kicker">5th Edition • GhPN Adinkra Ball 2026</span>
+          <h1 class="hero-headline">
+            An enchanting showcase of <em>Ghanaian excellence</em>.
+          </h1>
+          <p class="hero-lede">
+            Adinkra Ball melds tradition, celebration, and empowerment — an evening that honors our trailblazing professionals while investing in our future leaders through the GhPN Scholarship. Vibrant music, captivating performances, and culinary delights, all underscoring our shared heritage.
+          </p>
+
+          <!-- Live Countdown -->
+          <div style="display:flex; align-items:baseline; gap:0.85rem; flex-wrap:wrap; margin:1.6rem 0 1.8rem; padding:1rem 1.3rem; background:var(--color-canvas-pure); border:var(--border-hairline); border-left:3px solid var(--color-gold-deep); border-radius:var(--radius-sm);">
+            <span style="font-size:0.72rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:var(--color-ink-muted); width:100%;">Countdown to the Ball</span>
+            <span id="cd-days" style="font-family:var(--font-serif); font-size:2rem; font-weight:700; color:var(--color-green-deep);">--</span><span style="font-size:0.78rem; color:var(--color-ink-muted);">Days</span>
+            <span id="cd-hours" style="font-family:var(--font-serif); font-size:2rem; font-weight:700; color:var(--color-green-deep);">--</span><span style="font-size:0.78rem; color:var(--color-ink-muted);">Hrs</span>
+            <span id="cd-minutes" style="font-family:var(--font-serif); font-size:2rem; font-weight:700; color:var(--color-green-deep);">--</span><span style="font-size:0.78rem; color:var(--color-ink-muted);">Mins</span>
+            <span id="cd-seconds" style="font-family:var(--font-serif); font-size:2rem; font-weight:700; color:var(--color-gold-deep);">--</span><span style="font-size:0.78rem; color:var(--color-ink-muted);">Secs</span>
+            <span style="width:100%; font-size:0.82rem; color:var(--color-ink-secondary);">Saturday, April 11, 2026 • 6:00 PM • Dallas, Texas</span>
+          </div>
+
+          <div class="hero-cta-group">
+            <button class="btn btn-primary btn-lg" onclick="openModal('modal-rsvp')">
+              Purchase Tickets
+            </button>
+            <button class="btn btn-outline btn-lg" onclick="switchView('events')">
+              Become a Sponsor
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-visual-frame">
+          <div class="hero-photo-wrapper">
+            <img src="assets/images/gala.jpg" alt="Guests at the GhPN Adinkra Ball in Dallas, Texas">
+            <div class="hero-photo-caption">
+              <span>Adinkra Ball Honors Evening • Dallas, Texas</span>
+              <span style="font-weight:600; color:var(--color-green-deep);">5th Edition • 2026</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ball Impact Stats Banner -->
+    <div class="stats-banner">
+      <div class="container stats-grid">
+        <div class="stat-block">
+          <span class="stat-figure" data-target="20000" data-prefix="$">$0</span>
+          <span class="stat-label">Scholarships Awarded Since Inception</span>
+        </div>
+        <div class="stat-block">
+          <span class="stat-figure" data-target="15" data-suffix="">0</span>
+          <span class="stat-label">Ghanaian Students Funded to Date</span>
+        </div>
+        <div class="stat-block">
+          <span class="stat-figure" data-target="50000" data-prefix="$">$0</span>
+          <span class="stat-label">Fundraising Target at the 5th Edition Ball</span>
+        </div>
+        <div class="stat-block">
+          <span class="stat-figure" data-target="5" data-suffix="th">0</span>
+          <span class="stat-label">Edition Celebrating Ghanaian Excellence</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- The Adinkra Ball Experience -->
+    <section class="section">
+      <div class="container">
+        <div class="section-heading-center">
+          <span class="section-kicker">The Evening</span>
+          <h2 class="section-main-title">The Adinkra Ball Experience</h2>
+          <p class="section-deck">
+            More than a gala — a celebration of our collective strength, a testament to our achievements, and a bold step towards a brighter future for Ghana's next generation.
+          </p>
+        </div>
+
+        <div class="pillars-editorial-list">
+          <!-- Highlight 1 -->
+          <div class="pillar-editorial-item">
+            <div class="pillar-number">01</div>
+            <h3 class="pillar-heading">Honors & Awards</h3>
+            <p class="pillar-body">
+              Presenting lifetime achievement honors to trailblazing Ghanaian professionals across medicine, enterprise, law, arts, and public service.
+            </p>
+            <a href="#events" class="pillar-action-link" onclick="switchView('events')">Reserve Your Seat &rarr;</a>
+          </div>
+
+          <!-- Highlight 2 -->
+          <div class="pillar-editorial-item">
+            <div class="pillar-number">02</div>
+            <h3 class="pillar-heading">Scholarship Toast & Appeal</h3>
+            <p class="pillar-body">
+              A live fundraising appeal directly funding merit-based scholarships — our $50,000 target at this edition carries promising students through university.
+            </p>
+            <a href="#donate" class="pillar-action-link" onclick="switchView('donate')">Give to the Fund &rarr;</a>
+          </div>
+
+          <!-- Highlight 3 -->
+          <div class="pillar-editorial-item">
+            <div class="pillar-number">03</div>
+            <h3 class="pillar-heading">Culture, Music & Performance</h3>
+            <p class="pillar-body">
+              Vibrant live music, captivating cultural performances, and a kente-accented black-tie dress code celebrating our shared heritage.
+            </p>
+            <a href="#events" class="pillar-action-link" onclick="switchView('events')">Event Details &rarr;</a>
+          </div>
+
+          <!-- Highlight 4 -->
+          <div class="pillar-editorial-item">
+            <div class="pillar-number">04</div>
+            <h3 class="pillar-heading">Fine Dining & Executive Networking</h3>
+            <p class="pillar-body">
+              Culinary delights and an unmatched room of founders, physicians, partners, and civic leaders from Ghana and the diaspora.
+            </p>
+            <a href="#events" class="pillar-action-link" onclick="switchView('events')">View Tickets &rarr;</a>
+          </div>
+
+          <!-- Highlight 5 -->
+          <div class="pillar-editorial-item">
+            <div class="pillar-number">05</div>
+            <h3 class="pillar-heading">Sponsorship Marketplace</h3>
+            <p class="pillar-body">
+              Six partnership tiers — from Supporter to Adinkrahene — placing your brand before hundreds of influential Ghanaian professionals.
+            </p>
+            <a href="#events" class="pillar-action-link" onclick="switchView('events')">Sponsorship Packages &rarr;</a>
+          </div>
+
+          <!-- Highlight 6 -->
+          <div class="pillar-editorial-item">
+            <div class="pillar-number">06</div>
+            <h3 class="pillar-heading">Silent Auction & Legacy Giving</h3>
+            <p class="pillar-body">
+              Bid on exclusive experiences and artworks, with every cedi of proceeds endowing the GhPN Scholarship and mentorship programs.
+            </p>
+            <a href="#donate" class="pillar-action-link" onclick="switchView('donate')">Endowment Details &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formal Gala Feature (Classic Invitation Presentation) -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="ball-invitation-container">
+          <div class="ball-invitation-grid">
+            <div class="ball-invitation-details">
+              <span class="ball-badge-formal">5th Edition • Annual Honors Gala</span>
+              <h2 class="ball-title-formal">The GhPN Adinkra Ball 2026</h2>
+              <p class="ball-description">
+                An enchanting showcase of Ghanaian excellence that melds tradition, celebration, and empowerment — bathed in cultural richness, honoring our trailblazing professionals while investing in our future leaders.
+              </p>
+
+              <div class="ball-factsheet">
+                <div class="ball-fact-item">
+                  <span class="ball-fact-title">Venue</span>
+                  <span class="ball-fact-val">Dallas North Tollway, 14901, Dallas, Texas 75254</span>
+                </div>
+                <div class="ball-fact-item">
+                  <span class="ball-fact-title">Date & Time</span>
+                  <span class="ball-fact-val">Saturday, April 11, 2026 • 6:00 PM</span>
+                </div>
+                <div class="ball-fact-item">
+                  <span class="ball-fact-title">Dress Code</span>
+                  <span class="ball-fact-val">Black Tie with Ghanaian Kente Accents</span>
+                </div>
+                <div class="ball-fact-item">
+                  <span class="ball-fact-title">Admission</span>
+                  <span class="ball-fact-val">General: $150 • VIP: $350 • Patron Table: $2,000</span>
+                </div>
+              </div>
+
+              <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+                <button class="btn btn-primary" onclick="openModal('modal-rsvp')">Reserve Your Seat</button>
+                <button class="btn btn-outline" onclick="switchView('events')">Corporate Table & Sponsors</button>
+              </div>
+            </div>
+
+            <div class="ball-photo-col">
+              <img src="assets/images/hero.jpg" alt="GhPN leaders at the Adinkra Ball honorees roundtable">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scholarship Impact Story Section -->
+    <section class="section">
+      <div class="container">
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:4rem; align-items:center;">
+          <div style="border-radius:var(--radius-md); overflow:hidden; border:1px solid var(--border-medium); box-shadow:var(--shadow-card);">
+            <img src="assets/images/mentorship.jpg" alt="GhPN scholarship recipient mentored at a university library in Ghana">
+            <div style="padding:0.85rem 1.2rem; background-color:var(--color-canvas-pure); font-size:0.82rem; color:var(--color-ink-muted); border-top:var(--border-hairline);">
+              GhPN Scholarship recipient with her mentor • University of Ghana, Legon
+            </div>
+          </div>
+
+          <div>
+            <span class="section-kicker">Empowering Tomorrow's Leaders</span>
+            <h2 class="section-main-title">Every Ticket Funds a Scholarship</h2>
+            <p style="color:var(--color-ink-secondary); line-height:1.7; margin-bottom:1.5rem;">
+              Proceeds from the Adinkra Ball go directly toward the GhPN Scholarship Program — designed to encourage, support, and recognize outstanding Ghanaian youth for their demonstrated talent and academic excellence. These merit-based scholarships are awarded to high school and undergraduate students for their academic, athletic, or artistic ability.
+            </p>
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:1.2rem; margin-bottom:2rem;">
+              <div style="background:var(--color-canvas-pure); border:var(--border-hairline); border-left:3px solid var(--color-green-deep); padding:1.1rem 1.3rem; border-radius:var(--radius-sm);">
+                <div style="font-family:var(--font-serif); font-size:1.7rem; font-weight:700; color:var(--color-green-deep);">$20,000+</div>
+                <div style="font-size:0.82rem; color:var(--color-ink-muted);">Awarded to 15 students since inception</div>
+              </div>
+              <div style="background:var(--color-canvas-pure); border:var(--border-hairline); border-left:3px solid var(--color-gold-deep); padding:1.1rem 1.3rem; border-radius:var(--radius-sm);">
+                <div style="font-family:var(--font-serif); font-size:1.7rem; font-weight:700; color:var(--color-gold-deep);">$50,000</div>
+                <div style="font-size:0.82rem; color:var(--color-ink-muted);">Target at the 5th Edition Ball</div>
+              </div>
+            </div>
+            <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+              <button class="btn btn-primary" onclick="switchView('donate')">Donate to the Fund</button>
+              <button class="btn btn-outline" onclick="openModal('modal-rsvp')">Attend the Ball</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- =========================================================================
+       VIEW 2: ABOUT GHPN (Matches https://ghpn.org/about-ghpn/)
+       ========================================================================= -->
+  <main class="page-view" id="view-about">
+    <section class="hero-editorial" style="padding:2.75rem 0 2rem;">
+      <div class="container">
+        <span class="hero-meta-kicker">Organizational Profile</span>
+        <h1 class="hero-headline" style="max-width:820px;">
+          About the Ghanaian Professionals Network
+        </h1>
+        <p class="hero-lede" style="max-width:750px;">
+          A non-profit association dedicated to connecting, supporting, and empowering Ghanaian professionals to advance careers, businesses, and education interests at home and globally.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0.5rem; padding-bottom:3.5rem;">
+      <div class="container">
+
+        <!-- President's Letter (condensed) -->
+        <div class="president-message-card" style="margin-bottom:3rem;">
+          <div class="president-portrait-frame">
+            <img src="assets/images/president.jpg" alt="Dr. Naa Borkor Quartey, Board President">
+          </div>
+          <div class="president-letter-content">
+            <span class="section-kicker">Executive Perspective</span>
+            <h3 class="font-serif">"Our collective progress depends on the strength of our connections."</h3>
+            <p>
+              Across Accra, Kumasi, London, Atlanta, and Dallas, Ghanaians are performing at the highest levels of global enterprise, medicine, and governance — yet too often our efforts remain fragmented. GhPN exists to unite this talent: when a partner mentors an aspiring lawyer, or an executive engages a vetted local enterprise from our directory, we create real economic momentum for our people.
+            </p>
+            <div class="president-signoff">
+              <span class="president-signature-title">Dr. Naa Borkor Quartey, FWACS</span>
+              <span class="president-signature-role">Consultant Surgeon & Board President, GhPN Ghana</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mission & Vision -->
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:2.5rem; margin-bottom:3rem;">
+          <div style="background-color:var(--color-canvas-pure); border:var(--border-hairline); border-left:3px solid var(--color-green-deep); padding:2rem; border-radius:var(--radius-sm);">
+            <h3 style="font-family:var(--font-serif); font-size:1.3rem; margin-bottom:0.75rem; color:var(--color-green-deep);">Our Mission</h3>
+            <p style="font-size:0.95rem; color:var(--color-ink-secondary); line-height:1.68;">
+              To mobilize Ghanaian professionals to support professional, academic, and personal growth through structured mentorship, educational scholarship, and collaborative economic networks.
+            </p>
+          </div>
+
+          <div style="background-color:var(--color-canvas-pure); border:var(--border-hairline); border-left:3px solid var(--color-gold-deep); padding:2rem; border-radius:var(--radius-sm);">
+            <h3 style="font-family:var(--font-serif); font-size:1.3rem; margin-bottom:0.75rem; color:var(--color-gold-deep);">Our Vision</h3>
+            <p style="font-size:0.95rem; color:var(--color-ink-secondary); line-height:1.68;">
+              A vibrant, collaborative global network of Ghanaian leaders shaping industry, academia, and civic institutions with integrity, mutual support, and national purpose.
+            </p>
+          </div>
+        </div>
+
+        <!-- Programs & Grants (moved from Programs tab) -->
+        <div class="section-heading-center" style="margin-bottom:2.2rem;">
+          <span class="section-kicker">Core Initiatives</span>
+          <h2 class="section-main-title">Programs & Grants</h2>
+          <p class="section-deck">Structured initiatives that elevate Ghanaian scholars and young graduates.</p>
+        </div>
+
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:2rem; margin-bottom:3rem;">
+          <div style="background-color:var(--color-canvas-pure); border:var(--border-hairline); border-radius:var(--radius-md); padding:2.2rem 2rem; display:flex; flex-direction:column;">
+            <span class="section-kicker">Endowed Grants</span>
+            <h3 class="font-serif" style="font-size:1.5rem; margin:0.5rem 0 0.8rem;">GhPN Academic Scholarship Fund</h3>
+            <p style="font-size:0.93rem; color:var(--color-ink-secondary); line-height:1.65; margin-bottom:1rem;">
+              Full annual tuition grants, laptop equipment, and professional mentorship from matriculation to graduation for gifted Ghanaian students.
+            </p>
+            <p style="font-size:0.87rem; color:var(--color-ink-muted); line-height:1.65; margin-bottom:1.5rem;">
+              <strong style="color:var(--color-ink-primary);">Institutions:</strong> UG Legon, KNUST, UCC, Ashesi &amp; UHAS.<br>
+              <strong style="color:var(--color-ink-primary);">Eligibility:</strong> Undergraduate Level 200–400, 3.2 GPA / CWA 70%+, financial need &amp; civic record.
+            </p>
+            <div style="display:flex; gap:0.75rem; flex-wrap:wrap; margin-top:auto;">
+              <button class="btn btn-primary btn-sm" onclick="openModal('modal-scholarship-apply')">Apply for Scholarship</button>
+              <button class="btn btn-outline btn-sm" onclick="switchView('donate')">Give to Endowment</button>
+            </div>
+          </div>
+
+          <div style="background-color:var(--color-canvas-pure); border:var(--border-hairline); border-radius:var(--radius-md); padding:2.2rem 2rem; display:flex; flex-direction:column;">
+            <span class="section-kicker">Professional Development</span>
+            <h3 class="font-serif" style="font-size:1.5rem; margin:0.5rem 0 0.8rem;">Executive Mentorship Cohorts</h3>
+            <p style="font-size:0.93rem; color:var(--color-ink-secondary); line-height:1.65; margin-bottom:1rem;">
+              Six-month cohorts pairing emerging professionals with senior executives — bi-weekly check-ins, career mapping, salary negotiation coaching, and research publishing guidance.
+            </p>
+            <p style="font-size:0.87rem; color:var(--color-ink-muted); line-height:1.65; margin-bottom:1.5rem;">
+              <strong style="color:var(--color-ink-primary);">Focus areas:</strong> Software Engineering, Investment Banking, Public Health &amp; Corporate Law.<br>
+              <strong style="color:var(--color-ink-primary);">Impact:</strong> 450+ mentor–mentee pairs completed, 4,000+ professional hours contributed annually.
+            </p>
+            <div style="display:flex; gap:0.75rem; flex-wrap:wrap; margin-top:auto;">
+              <button class="btn btn-primary btn-sm" onclick="openModal('modal-mentor')">Apply for Next Cohort</button>
+              <button class="btn btn-outline btn-sm" onclick="openModal('modal-mentor')">Volunteer as Mentor</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Business Directory (moved from Directory tab) -->
+        <div class="section-heading-center" style="margin-bottom:2.2rem;">
+          <span class="section-kicker">Commercial Registry</span>
+          <h2 class="section-main-title">Business Directory</h2>
+          <p class="section-deck">Find and engage vetted legal, medical, technological, and financial practices in Ghana and the diaspora.</p>
+        </div>
+
+        <div class="directory-toolbar">
+          <div class="directory-search-input-wrap">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            <input type="text" id="dirSearchInput" placeholder="Search by firm name, sector, or city..." onkeyup="filterDirectory()">
+          </div>
+
+          <div class="filter-chip-group">
+            <button class="filter-chip active" data-cat="all" onclick="setCategoryFilter('all', this)">All Sectors</button>
+            <button class="filter-chip" data-cat="Legal" onclick="setCategoryFilter('Legal', this)">Legal</button>
+            <button class="filter-chip" data-cat="Tech" onclick="setCategoryFilter('Tech', this)">Technology</button>
+            <button class="filter-chip" data-cat="Healthcare" onclick="setCategoryFilter('Healthcare', this)">Healthcare</button>
+            <button class="filter-chip" data-cat="Finance" onclick="setCategoryFilter('Finance', this)">Finance</button>
+            <button class="filter-chip" data-cat="Engineering" onclick="setCategoryFilter('Engineering', this)">Engineering</button>
+          </div>
+
+          <button class="btn btn-primary btn-sm" onclick="openModal('modal-add-business')">+ Register Practice</button>
+        </div>
+
+        <div class="directory-listing-grid" id="directoryListingGrid" style="margin-bottom:1rem;">
+          <div class="directory-entry-card" data-category="Legal" data-name="Black Star Corporate Attorneys">
+            <div class="entry-header">
+              <span class="entry-sector-tag">Legal & Commercial</span>
+              <span class="entry-verified">✓ Verified</span>
+            </div>
+            <h4 class="entry-title">Black Star Corporate Attorneys</h4>
+            <div class="entry-address">Airport City, Accra</div>
+            <p class="entry-desc">Commercial transactions, regulatory compliance, intellectual property protection, and investment structuring.</p>
+            <div class="entry-footer-actions">
+              <a href="tel:+233302111222" class="btn btn-outline btn-sm">Call Office</a>
+              <button class="btn btn-primary btn-sm" onclick="showToast('Inquiry dispatched to Black Star Corporate Attorneys')">Inquire</button>
+            </div>
+          </div>
+
+          <div class="directory-entry-card" data-category="Tech" data-name="Volta Cloud Solutions Ltd">
+            <div class="entry-header">
+              <span class="entry-sector-tag">Technology & AI</span>
+              <span class="entry-verified">✓ Verified</span>
+            </div>
+            <h4 class="entry-title">Volta Cloud Solutions Ltd</h4>
+            <div class="entry-address">Ridge West, Accra</div>
+            <p class="entry-desc">Enterprise cloud systems, cybersecurity vulnerability assessments, and bespoke banking software architecture.</p>
+            <div class="entry-footer-actions">
+              <a href="tel:+233244889900" class="btn btn-outline btn-sm">Call Office</a>
+              <button class="btn btn-primary btn-sm" onclick="showToast('Inquiry dispatched to Volta Cloud Solutions')">Inquire</button>
+            </div>
+          </div>
+
+          <div class="directory-entry-card" data-category="Healthcare" data-name="Akoma Specialty Health Center">
+            <div class="entry-header">
+              <span class="entry-sector-tag">Healthcare</span>
+              <span class="entry-verified">✓ Verified</span>
+            </div>
+            <h4 class="entry-title">Akoma Specialty Health Center</h4>
+            <div class="entry-address">Ahodwo, Kumasi</div>
+            <p class="entry-desc">Cardiology diagnostics, outpatient specialist consultations, executive checkups, and preventive wellness.</p>
+            <div class="entry-footer-actions">
+              <a href="tel:+233322045678" class="btn btn-outline btn-sm">Call Office</a>
+              <button class="btn btn-primary btn-sm" onclick="showToast('Inquiry dispatched to Akoma Specialty Health')">Inquire</button>
+            </div>
+          </div>
+
+          <div class="directory-entry-card" data-category="Finance" data-name="Oti Capital Asset Management">
+            <div class="entry-header">
+              <span class="entry-sector-tag">Finance</span>
+              <span class="entry-verified">✓ Verified</span>
+            </div>
+            <h4 class="entry-title">Oti Capital Asset Management</h4>
+            <div class="entry-address">Cantonments, Accra</div>
+            <p class="entry-desc">Sovereign debt advisory, private wealth allocation, and diaspora remittance investment management.</p>
+            <div class="entry-footer-actions">
+              <a href="tel:+233302778899" class="btn btn-outline btn-sm">Call Office</a>
+              <button class="btn btn-primary btn-sm" onclick="showToast('Inquiry dispatched to Oti Capital')">Inquire</button>
+            </div>
+          </div>
+
+          <div class="directory-entry-card" data-category="Engineering" data-name="Ashanti Built Environment Consult">
+            <div class="entry-header">
+              <span class="entry-sector-tag">Engineering</span>
+              <span class="entry-verified">✓ Verified</span>
+            </div>
+            <h4 class="entry-title">Ashanti Built Environment Consult</h4>
+            <div class="entry-address">Asokwa, Kumasi</div>
+            <p class="entry-desc">Civil structural engineering, municipal works oversight, sustainable architecture, and project management.</p>
+            <div class="entry-footer-actions">
+              <a href="tel:+233201234567" class="btn btn-outline btn-sm">Call Office</a>
+              <button class="btn btn-primary btn-sm" onclick="showToast('Inquiry dispatched to Ashanti Consult')">Inquire</button>
+            </div>
+          </div>
+
+          <div class="directory-entry-card" data-category="Tech" data-name="Ananse Brand & Media Studio">
+            <div class="entry-header">
+              <span class="entry-sector-tag">Design & Media</span>
+              <span class="entry-verified">✓ Verified</span>
+            </div>
+            <h4 class="entry-title">Ananse Brand & Media Studio</h4>
+            <div class="entry-address">Dzorwulu, Accra</div>
+            <p class="entry-desc">Corporate design identity, institutional annual reporting publications, and documentary film production.</p>
+            <div class="entry-footer-actions">
+              <a href="tel:+233555987654" class="btn btn-outline btn-sm">Call Office</a>
+              <button class="btn btn-primary btn-sm" onclick="showToast('Inquiry dispatched to Ananse Media')">Inquire</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Leadership Committee Grid -->
+        <div class="section-heading-center" style="margin-bottom:2.2rem; padding-top:1.5rem;">
+          <span class="section-kicker">Governance</span>
+          <h2 class="section-main-title">Executive Committee & Board</h2>
+        </div>
+
+        <div class="leadership-editorial-grid">
+          <div class="leader-card">
+            <div class="leader-portrait">
+              <img src="assets/images/president.jpg" alt="Dr. Naa Borkor Quartey">
+            </div>
+            <div class="leader-meta">
+              <span class="leader-role">President & Board Chair</span>
+              <h4 class="leader-name">Dr. Naa Borkor Quartey</h4>
+              <p class="leader-affiliation">Fellow, West African College of Surgeons</p>
+            </div>
+          </div>
+
+          <div class="leader-card">
+            <div class="leader-portrait">
+              <img src="assets/images/hero.jpg" alt="Kwame Boakye-Yiadom" style="object-position: 70% 25%;">
+            </div>
+            <div class="leader-meta">
+              <span class="leader-role">Vice President, Strategy</span>
+              <h4 class="leader-name">Kwame Boakye-Yiadom, CFA</h4>
+              <p class="leader-affiliation">Partner, Private Equity & Capital Markets</p>
+            </div>
+          </div>
+
+          <div class="leader-card">
+            <div class="leader-portrait">
+              <img src="assets/images/mentorship.jpg" alt="Adwoa Sarpong" style="object-position: 45% 20%;">
+            </div>
+            <div class="leader-meta">
+              <span class="leader-role">Director of Academic Grants</span>
+              <h4 class="leader-name">Adwoa Sarpong, PhD</h4>
+              <p class="leader-affiliation">Senior Lecturer & Dean, Built Environment</p>
+            </div>
+          </div>
+
+          <div class="leader-card">
+            <div class="leader-portrait">
+              <img src="assets/images/gala.jpg" alt="Nana Yaw Acheampong" style="object-position: 25% 30%;">
+            </div>
+            <div class="leader-meta">
+              <span class="leader-role">Liaison, Diaspora Affairs</span>
+              <h4 class="leader-name">Nana Yaw Acheampong</h4>
+              <p class="leader-affiliation">Director, Diaspora Bridge Consultancy</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+
+  <!-- =========================================================================
+       VIEW 4: ADINKRA BALL — TICKETS & SPONSORSHIP (Primary Event Focus)
+       ========================================================================= -->
+  <main class="page-view" id="view-events">
+    <section class="hero-editorial" style="padding:3.5rem 0;">
+      <div class="container">
+        <span class="hero-meta-kicker">5th Edition • April 11, 2026 • Dallas, Texas</span>
+        <h1 class="hero-headline">Adinkra Ball 2026 — Tickets & Sponsorship</h1>
+        <p class="hero-lede" style="max-width:760px;">
+          Adinkra Ball is an enchanting showcase of Ghanaian excellence that melds tradition, celebration, and empowerment. This grand event, bathed in cultural richness, honors our trailblazing professionals while investing in our future leaders via the GhPN Scholarship.
+        </p>
+        <div style="display:flex; gap:1rem; flex-wrap:wrap; margin-top:1.8rem;">
+          <button class="btn btn-primary btn-lg" onclick="openModal('modal-rsvp')">Purchase Tickets</button>
+          <button class="btn btn-outline btn-lg" onclick="document.getElementById('sponsorshipPackages').scrollIntoView({behavior:'smooth'})">View Sponsor Packages</button>
+          <a class="btn btn-outline btn-lg" href="https://maps.google.com/?daddr=32.951395570169921711567440070211887359619140625,-96.8245853613769469347971607930958271026611328125" target="_blank" rel="noopener">Get Directions</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+
+        <!-- When / Where -->
+        <div style="display:grid; grid-template-columns:1.2fr 0.8fr; gap:2.5rem; margin-bottom:4.5rem; align-items:stretch;">
+          <div class="ball-invitation-container" style="margin:0;">
+            <div style="padding:2.5rem 2.5rem;">
+              <span class="ball-badge-formal">Save the Date</span>
+              <h2 class="ball-title-formal" style="margin-top:0.7rem;">An Evening Celebrating Our Collective Strength</h2>
+              <p class="ball-description" style="margin-bottom:1.8rem;">
+                More than a gala — a celebration of our achievements and a bold step towards a brighter future. Join founders, physicians, partners, and civic leaders from Ghana and the diaspora for vibrant music, captivating performances, and culinary delights.
+              </p>
+              <div class="ball-factsheet">
+                <div class="ball-fact-item">
+                  <span class="ball-fact-title">When</span>
+                  <span class="ball-fact-val">Saturday, April 11, 2026 • 6:00 PM</span>
+                </div>
+                <div class="ball-fact-item">
+                  <span class="ball-fact-title">Where</span>
+                  <span class="ball-fact-val">Dallas North Tollway, 14901, Dallas, Texas 75254, United States</span>
+                </div>
+                <div class="ball-fact-item">
+                  <span class="ball-fact-title">Dress Code</span>
+                  <span class="ball-fact-val">Black Tie with Ghanaian Kente Accents</span>
+                </div>
+                <div class="ball-fact-item">
+                  <span class="ball-fact-title">Beneficiary</span>
+                  <span class="ball-fact-val">The GhPN Scholarship Program • $50,000 Target</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="border-radius:var(--radius-md); overflow:hidden; border:1px solid var(--border-medium); box-shadow:var(--shadow-card); display:flex; flex-direction:column;">
+            <img src="assets/images/gala.jpg" alt="Adinkra Ball celebration" style="flex:1; object-fit:cover; min-height:240px;">
+            <div style="padding:1rem 1.3rem; background:var(--color-canvas-pure); border-top:var(--border-hairline); font-size:0.85rem; color:var(--color-ink-secondary);">
+              Every seat, table, and sponsorship directly endows scholarships for Ghanaian students.
+            </div>
+          </div>
+        </div>
+
+        <!-- TICKETS -->
+        <div class="section-heading-center" style="margin-bottom:2.5rem;">
+          <span class="section-kicker">Admission</span>
+          <h2 class="section-main-title">Reserve Your Seat at the Ball</h2>
+          <p class="section-deck">Choose your admission level. All tickets include dinner, performances, and a contribution to the scholarship fund.</p>
+        </div>
+
+        <div class="membership-tier-columns" style="margin-bottom:5rem;">
+          <!-- General -->
+          <div class="tier-editorial-card">
+            <h3 class="tier-title-h3">General Admission</h3>
+            <p class="tier-subtitle-p">For members, guests, and friends of GhPN wishing to celebrate the evening.</p>
+            <div class="tier-rate-box">
+              <span style="font-size:1.2rem; font-weight:700;">$</span>
+              <span class="tier-rate-figure">150</span>
+              <span style="font-size:0.85rem; color:var(--color-ink-muted);">/ guest</span>
+            </div>
+            <ul class="tier-checklist">
+              <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Ball entry, dinner & performances</span></li>
+              <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Program listing as a guest</span></li>
+              <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Scholarship contribution included</span></li>
+            </ul>
+            <button class="btn btn-outline" onclick="selectTicketAndRsvp('General Admission ($150)')">Purchase Ticket</button>
+          </div>
+
+          <!-- VIP -->
+          <div class="tier-editorial-card preferred">
+            <span class="preferred-ribbon">Most Popular</span>
+            <h3 class="tier-title-h3">VIP Admission</h3>
+            <p class="tier-subtitle-p">Premium placement, pre-reception access, and an elevated evening experience.</p>
+            <div class="tier-rate-box">
+              <span style="font-size:1.2rem; font-weight:700;">$</span>
+              <span class="tier-rate-figure">350</span>
+              <span style="font-size:0.85rem; color:var(--color-ink-muted);">/ guest</span>
+            </div>
+            <ul class="tier-checklist">
+              <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Everything in General Admission</span></li>
+              <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>VIP seating with premium placement</span></li>
+              <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Pre-reception cocktail access</span></li>
+              <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Commemorative gift bag</span></li>
+            </ul>
+            <button class="btn btn-primary" onclick="selectTicketAndRsvp('VIP Admission ($350)')">Purchase VIP Ticket</button>
+          </div>
+
+          <!-- Table -->
+          <div class="tier-editorial-card">
+            <h3 class="tier-title-h3">Patron Table</h3>
+            <p class="tier-subtitle-p">A reserved table of eight for corporations, families, and patron groups.</p>
+            <div class="tier-rate-box">
+              <span style="font-size:1.2rem; font-weight:700;">$</span>
+              <span class="tier-rate-figure">2,000</span>
+              <span style="font-size:0.85rem; color:var(--color-ink-muted);">/ table of 8</span>
+            </div>
+            <ul class="tier-checklist">
+              <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Eight VIP admissions at reserved seating</span></li>
+              <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Company / family name on table tent card</span></li>
+              <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Recognition in the event program</span></li>
+            </ul>
+            <button class="btn btn-outline" onclick="selectTicketAndRsvp('Patron Table — 8 Seats ($2,000)')">Reserve a Table</button>
+          </div>
+        </div>
+
+        <!-- SPONSORSHIP -->
+        <div id="sponsorshipPackages">
+          <div class="section-heading-center" style="margin-bottom:2.5rem;">
+            <span class="section-kicker">Join the Legacy</span>
+            <h2 class="section-main-title">Become an Adinkra Ball Sponsor</h2>
+            <p class="section-deck">
+              By becoming a sponsor, you're not just reserving a seat at our table — you're championing a vision, uplifting our youth, and creating enduring impact. Six partnership tiers, each tailored to your engagement level and visibility preferences.
+            </p>
+          </div>
+
+          <div class="membership-tier-columns" style="margin-bottom:2rem;">
+            <!-- Supporter -->
+            <div class="tier-editorial-card">
+              <h3 class="tier-title-h3">Supporter</h3>
+              <p class="tier-subtitle-p">Entry-level partnership with visibility among attendees.</p>
+              <div class="tier-rate-box">
+                <span style="font-size:1.2rem; font-weight:700;">$</span>
+                <span class="tier-rate-figure">500</span>
+              </div>
+              <ul class="tier-checklist">
+                <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Flyers, business cards & business info shared with attendees</span></li>
+                <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Includes two General Admission tickets</span></li>
+              </ul>
+              <button class="btn btn-outline" onclick="selectSponsorPackage('Supporter', 500)">Select Package</button>
+            </div>
+
+            <!-- Collaborator -->
+            <div class="tier-editorial-card">
+              <h3 class="tier-title-h3">Collaborator</h3>
+              <p class="tier-subtitle-p">Showcase your product or business at the venue.</p>
+              <div class="tier-rate-box">
+                <span style="font-size:1.2rem; font-weight:700;">$</span>
+                <span class="tier-rate-figure">1,000</span>
+              </div>
+              <ul class="tier-checklist">
+                <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Allocated table/space to showcase product or business</span></li>
+                <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>72" × 30" display table for business info</span></li>
+                <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Verbal acknowledgment during the ceremony</span></li>
+                <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Includes two VIP tickets</span></li>
+              </ul>
+              <button class="btn btn-outline" onclick="selectSponsorPackage('Collaborator', 1000)">Select Package</button>
+            </div>
+
+            <!-- Sankofa -->
+            <div class="tier-editorial-card">
+              <h3 class="tier-title-h3">Sankofa</h3>
+              <p class="tier-subtitle-p">Recognized sponsor across all event publicity.</p>
+              <div class="tier-rate-box">
+                <span style="font-size:1.2rem; font-weight:700;">$</span>
+                <span class="tier-rate-figure">2,500</span>
+              </div>
+              <ul class="tier-checklist">
+                <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Logo & name on all publicity: Save-the-Date, invitation, program & social media</span></li>
+                <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Website listing with link for 1 month</span></li>
+                <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Company on tent card at each table • 4 reserved seats</span></li>
+                <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Free vendor space at all GhPN 2026 events</span></li>
+              </ul>
+              <button class="btn btn-outline" onclick="selectSponsorPackage('Sankofa', 2500)">Select Package</button>
+            </div>
+
+            <!-- Nyansapo -->
+            <div class="tier-editorial-card">
+              <h3 class="tier-title-h3">Nyansapo</h3>
+              <p class="tier-subtitle-p">Elevated visibility with a reserved table at best placement.</p>
+              <div class="tier-rate-box">
+                <span style="font-size:1.2rem; font-weight:700;">$</span>
+                <span class="tier-rate-figure">5,000</span>
+              </div>
+              <ul class="tier-checklist">
+                <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Everything in Sankofa, with a 3-month website listing</span></li>
+                <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Logo in the media presentation shown during the Ball</span></li>
+                <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Reserved table (6 seats), best placement</span></li>
+                <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Marketing opportunity at a GhPN event</span></li>
+              </ul>
+              <button class="btn btn-outline" onclick="selectSponsorPackage('Nyansapo', 5000)">Select Package</button>
+            </div>
+
+            <!-- Akofena -->
+            <div class="tier-editorial-card preferred">
+              <span class="preferred-ribbon">Signature Partnership</span>
+              <h3 class="tier-title-h3">Akofena</h3>
+              <p class="tier-subtitle-p">Six-month featured presence and a platform to address attendees.</p>
+              <div class="tier-rate-box">
+                <span style="font-size:1.2rem; font-weight:700;">$</span>
+                <span class="tier-rate-figure">7,500</span>
+              </div>
+              <ul class="tier-checklist">
+                <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Logo featured on GhPN website for 6 months</span></li>
+                <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Full-color tribute/advertisement in the event program</span></li>
+                <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Spotlight to share company offerings • reserved table of 8</span></li>
+                <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Opportunity to address attendees at the Ball</span></li>
+              </ul>
+              <button class="btn btn-primary" onclick="selectSponsorPackage('Akofena', 7500)">Select Package</button>
+            </div>
+
+            <!-- Adinkrahene -->
+            <div class="tier-editorial-card">
+              <h3 class="tier-title-h3">Adinkrahene</h3>
+              <p class="tier-subtitle-p">Presenting-level partnership with naming rights.</p>
+              <div class="tier-rate-box">
+                <span style="font-size:1.2rem; font-weight:700;">$</span>
+                <span class="tier-rate-figure">10,000</span>
+              </div>
+              <ul class="tier-checklist">
+                <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Name a Scholarship award and an event segment after your firm</span></li>
+                <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Speaking rights & product display at the venue</span></li>
+                <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Up to 10 VIP tickets for your representatives</span></li>
+                <li class="tier-check-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg><span>Free vendor space & address at all GhPN 2026 events</span></li>
+              </ul>
+              <button class="btn btn-outline" onclick="selectSponsorPackage('Adinkrahene', 10000)">Select Package</button>
+            </div>
+          </div>
+
+          <div style="text-align:center; padding:1.6rem; background:var(--color-gold-light); border:1px solid var(--color-gold-border); border-radius:var(--radius-sm); font-size:0.9rem; color:var(--color-ink-secondary);">
+            Custom partnership arrangements available — contact the Secretariat at <strong>secretariat@ghpn.org</strong> or <a href="#contact" onclick="switchView('contact')" style="color:var(--color-gold-deep); font-weight:600;">send an inquiry &rarr;</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+
+  <!-- =========================================================================
+       VIEW 6: MEMBERSHIP & ANNUAL DUES
+       ========================================================================= -->
+  <main class="page-view" id="view-membership">
+    <section class="hero-editorial" style="padding:3.5rem 0;">
+      <div class="container">
+        <span class="hero-meta-kicker">Association Enrollment</span>
+        <h1 class="hero-headline">Membership Tiers & Annual Dues</h1>
+        <p class="hero-lede" style="max-width:720px;">
+          Join a dedicated body of professionals advancing industry standards, mentorship, and economic support for Ghana.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="membership-tier-columns">
+          <!-- Associate -->
+          <div class="tier-editorial-card">
+            <h3 class="tier-title-h3">Associate</h3>
+            <p class="tier-subtitle-p">For university students, National Service Personnel, and young graduates within 2 years of study.</p>
+            <div class="tier-rate-box">
+              <span style="font-size:1.2rem; font-weight:700;">₵</span>
+              <span class="tier-rate-figure">150</span>
+              <span style="font-size:0.85rem; color:var(--color-ink-muted);">/ year</span>
+            </div>
+            <ul class="tier-checklist">
+              <li class="tier-check-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Admission to Mentorship Cohorts</span>
+              </li>
+              <li class="tier-check-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Career and graduate school webinars</span>
+              </li>
+              <li class="tier-check-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Member directory search access</span>
+              </li>
+            </ul>
+            <button class="btn btn-outline" onclick="selectTierAndJoin('Associate (₵150)')">Apply as Associate</button>
+          </div>
+
+          <!-- Professional -->
+          <div class="tier-editorial-card preferred">
+            <span class="preferred-ribbon">Recommended Category</span>
+            <h3 class="tier-title-h3">Full Professional</h3>
+            <p class="tier-subtitle-p">For practicing executives, physicians, lawyers, engineers, and founders in Ghana and abroad.</p>
+            <div class="tier-rate-box">
+              <span style="font-size:1.2rem; font-weight:700;">₵</span>
+              <span class="tier-rate-figure">450</span>
+              <span style="font-size:0.85rem; color:var(--color-ink-muted);">/ year</span>
+            </div>
+            <ul class="tier-checklist">
+              <li class="tier-check-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>All Associate privileges included</span>
+              </li>
+              <li class="tier-check-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Complimentary quarterly mixer access</span>
+              </li>
+              <li class="tier-check-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Full Business Directory practice listing</span>
+              </li>
+              <li class="tier-check-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Voting rights at Annual General Meeting</span>
+              </li>
+            </ul>
+            <button class="btn btn-primary" onclick="selectTierAndJoin('Full Professional (₵450)')">Enroll as Professional</button>
+          </div>
+
+          <!-- Fellow -->
+          <div class="tier-editorial-card">
+            <h3 class="tier-title-h3">Executive Fellow</h3>
+            <p class="tier-subtitle-p">For Senior Directors, Partners, C-Suite leaders, and distinguished diaspora patrons.</p>
+            <div class="tier-rate-box">
+              <span style="font-size:1.2rem; font-weight:700;">₵</span>
+              <span class="tier-rate-figure">1,200</span>
+              <span style="font-size:0.85rem; color:var(--color-ink-muted);">/ year</span>
+            </div>
+            <ul class="tier-checklist">
+              <li class="tier-check-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>VIP seating at the Adinkra Ball</span>
+              </li>
+              <li class="tier-check-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Invitations to closed-door roundtables</span>
+              </li>
+              <li class="tier-check-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Advisory Board nomination eligibility</span>
+              </li>
+            </ul>
+            <button class="btn btn-outline" onclick="selectTierAndJoin('Executive Fellow (₵1,200)')">Enroll as Fellow</button>
+          </div>
+        </div>
+
+        <div style="margin-top:3.5rem; text-align:center; padding:2rem; background-color:var(--color-canvas-pure); border:var(--border-hairline); border-radius:var(--radius-sm);">
+          <span style="font-size:0.95rem; color:var(--color-ink-secondary);">Already registered? </span>
+          <button class="btn btn-outline btn-sm" onclick="openModal('modal-pay-dues')" style="margin-left:0.5rem;">Pay / Renew Annual Dues Online</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- =========================================================================
+       VIEW 7: ENDOWMENT & GIVING (DONATE)
+       ========================================================================= -->
+  <main class="page-view" id="view-donate">
+    <section class="hero-editorial" style="padding:3.5rem 0;">
+      <div class="container">
+        <span class="hero-meta-kicker">Philanthropic Stewardship</span>
+        <h1 class="hero-headline">The GhPN Foundation Endowment</h1>
+        <p class="hero-lede" style="max-width:720px;">
+          Direct, audited financial allocations supporting tertiary academic scholarships and regional medical outreaches in Ghana.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="endowment-editorial-card">
+          <div class="endowment-grid">
+            <div>
+              <span class="section-kicker">Fund Transparency</span>
+              <h2 class="font-serif" style="font-size:2.2rem; margin-bottom:1rem;">Endowing the Next Generation</h2>
+              <p style="color:var(--color-ink-secondary); line-height:1.7; margin-bottom:1.5rem;">
+                Every cedi contributed to the GhPN Foundation is managed under strict fiduciary standards by our Audit & Endowment Committee.
+              </p>
+              <div style="display:flex; flex-direction:column; gap:0.6rem; font-size:0.9rem; color:var(--color-ink-secondary);">
+                <div>• <strong>70%</strong> Disbursed directly for university tuition and learning tools</div>
+                <div>• <strong>20%</strong> Supplies for rural medical clinics and high school STEM gear</div>
+                <div>• <strong>10%</strong> Independent audit, accounting, and program administration</div>
+              </div>
+            </div>
+
+            <div style="background-color:var(--color-canvas); padding:2rem; border-radius:var(--radius-sm); border:var(--border-hairline);">
+              <h4 class="font-serif" style="font-size:1.2rem; margin-bottom:1.2rem;">Contribution Amount (GHS ₵)</h4>
+              
+              <div class="contribution-presets-grid">
+                <button class="preset-amount-button" onclick="selectDonation(200, this)">₵200</button>
+                <button class="preset-amount-button active" onclick="selectDonation(500, this)">₵500</button>
+                <button class="preset-amount-button" onclick="selectDonation(1500, this)">₵1,500</button>
+                <button class="preset-amount-button" onclick="selectDonation(5000, this)">₵5,000</button>
+              </div>
+
+              <div class="preset-custom-input-box">
+                <span>₵</span>
+                <input type="number" id="quickDonationAmount" value="500" placeholder="Custom Amount">
+              </div>
+
+              <button class="btn btn-primary btn-lg" style="width:100%;" onclick="processQuickDonation()">
+                Proceed with Contribution
+              </button>
+              <div style="text-align:center; margin-top:0.75rem; font-size:0.78rem; color:var(--color-ink-muted);">
+                Processed via MoMo / Visa / GHIPSS Instant Pay
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- =========================================================================
+       VIEW 8: CONTACT & SECRETARIAT
+       ========================================================================= -->
+  <main class="page-view" id="view-contact">
+    <section class="hero-editorial" style="padding:3.5rem 0;">
+      <div class="container">
+        <span class="hero-meta-kicker">Correspondence</span>
+        <h1 class="hero-headline">Secretariat & Chapter Offices</h1>
+        <p class="hero-lede" style="max-width:720px;">
+          Inquiries regarding membership, chapter affiliation, and corporate partnerships.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div style="display:grid; grid-template-columns:1.15fr 0.85fr; gap:3.5rem;">
+          <!-- Inquiry Form -->
+          <div style="background-color:var(--color-canvas-pure); border:var(--border-hairline); border-radius:var(--radius-sm); padding:2.5rem;">
+            <h3 class="font-serif" style="font-size:1.6rem; margin-bottom:0.5rem;">Send an Inquiry</h3>
+            <p style="color:var(--color-ink-muted); margin-bottom:1.8rem; font-size:0.92rem;">
+              Correspondence is reviewed by the Executive Secretariat within one business day.
+            </p>
+
+            <form onsubmit="handleContactSubmit(event)">
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label">Full Name</label>
+                  <input type="text" class="form-control" required placeholder="Kwame Mensah">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Email Address</label>
+                  <input type="email" class="form-control" required placeholder="kwame@example.com">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label">Phone / WhatsApp</label>
+                  <input type="tel" class="form-control" placeholder="+233 24 000 0000">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Affiliated Chapter</label>
+                  <select class="form-control">
+                    <option>Accra (Greater Accra)</option>
+                    <option>Kumasi (Ashanti Region)</option>
+                    <option>Takoradi (Western Region)</option>
+                    <option>Diaspora - North America</option>
+                    <option>Diaspora - United Kingdom</option>
+                    <option>Other / General</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Subject</label>
+                <input type="text" class="form-control" required placeholder="Membership, Scholarship endowment, Gala tables...">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Message Details</label>
+                <textarea class="form-control" rows="5" required placeholder="Enter your detailed inquiry..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg" style="width:100%;">Transmit Inquiry</button>
+            </form>
+          </div>
+
+          <!-- Official Registry Details -->
+          <div>
+            <h3 class="font-serif" style="font-size:1.4rem; margin-bottom:1.5rem;">Physical Secretariats</h3>
+
+            <div style="display:flex; flex-direction:column; gap:1.25rem;">
+              <div style="background-color:var(--color-canvas-pure); border:var(--border-hairline); padding:1.5rem; border-radius:var(--radius-sm);">
+                <span style="font-size:0.75rem; font-weight:700; text-transform:uppercase; color:var(--color-green-deep);">National Headquarters</span>
+                <h4 style="font-family:var(--font-serif); font-size:1.15rem; margin:0.3rem 0 0.5rem;">Accra Secretariat</h4>
+                <p style="font-size:0.88rem; color:var(--color-ink-secondary); line-height:1.5; margin-bottom:0.6rem;">
+                  Stanbic Heights, 6th Floor, Airport City, Accra, Ghana
+                </p>
+                <span style="font-size:0.82rem; color:var(--color-ink-muted);">
+                  📞 +233 (0) 30 278 9100 • ✉️ secretariat@ghpn.org
+                </span>
+              </div>
+
+              <div style="background-color:var(--color-canvas-pure); border:var(--border-hairline); padding:1.5rem; border-radius:var(--radius-sm);">
+                <span style="font-size:0.75rem; font-weight:700; text-transform:uppercase; color:var(--color-green-deep);">Ashanti Regional Office</span>
+                <h4 style="font-family:var(--font-serif); font-size:1.15rem; margin:0.3rem 0 0.5rem;">Kumasi Chapter Hub</h4>
+                <p style="font-size:0.88rem; color:var(--color-ink-secondary); line-height:1.5; margin-bottom:0.6rem;">
+                  Ahodwo Roundabout, Kumasi, Ghana
+                </p>
+                <span style="font-size:0.82rem; color:var(--color-ink-muted);">
+                  📞 +233 (0) 32 209 8811 • ✉️ kumasi@ghpn.org
+                </span>
+              </div>
+
+              <div style="background-color:var(--color-canvas-pure); border:var(--border-hairline); padding:1.5rem; border-radius:var(--radius-sm);">
+                <span style="font-size:0.75rem; font-weight:700; text-transform:uppercase; color:var(--color-gold-deep);">Diaspora Liaison</span>
+                <h4 style="font-family:var(--font-serif); font-size:1.15rem; margin:0.3rem 0 0.5rem;">North America Desk</h4>
+                <p style="font-size:0.88rem; color:var(--color-ink-secondary); line-height:1.5; margin-bottom:0.6rem;">
+                  Dallas-Fort Worth Metroplex, Texas, USA
+                </p>
+                <span style="font-size:0.82rem; color:var(--color-ink-muted);">
+                  ✉️ diaspora@ghpn.org
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- =========================================================================
+       FOOTER (Institutional Classical Style)
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-columns-wrap">
+        <div class="footer-about-col">
+          <div class="brand-identity" onclick="switchView('home')">
+            <div class="brand-crest">
+              <svg viewBox="0 0 24 24">
+                <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+              </svg>
+            </div>
+            <div class="brand-words">
+              <span class="brand-title" style="color:#ffffff;">Adinkra Ball — GhPN</span>
+              <span class="brand-subtitle" style="color:#8fa69c;">Ghanaian Professionals Network</span>
+            </div>
+          </div>
+          <p>
+            An incorporated non-profit association dedicated to connecting, supporting, and empowering Ghanaian professionals across industry, academia, and civil society.
+          </p>
+          <div style="font-size:0.8rem; color:#8fa69c;">
+            Registered NGO No. GHP-88201 • Registrar General's Department, Accra
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Charter</h4>
+          <ul class="footer-list">
+            <li><a href="#about" onclick="switchView('about')">Mission & Story</a></li>
+            <li><a href="#about" onclick="switchView('about')">Board President's Letter</a></li>
+            <li><a href="#about" onclick="switchView('about')">Executive Committee</a></li>
+            <li><a href="#events" onclick="switchView('events')">Adinkra Ball 2026 Tickets</a></li>
+            <li><a href="#events" onclick="switchView('events')">Sponsorship Packages</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Initiatives</h4>
+          <ul class="footer-list">
+            <li><a href="#about" onclick="switchView('about')">Tertiary Scholarships</a></li>
+            <li><a href="#about" onclick="switchView('about')">Executive Mentorship</a></li>
+            <li><a href="#about" onclick="switchView('about')">Community Health Outreaches</a></li>
+            <li><a href="#about" onclick="switchView('about')">Business Registry</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Members</h4>
+          <ul class="footer-list">
+            <li><a href="#membership" onclick="switchView('membership')">Membership Categories</a></li>
+            <li><a href="#" onclick="openModal('modal-pay-dues')">Pay Annual Dues</a></li>
+            <li><a href="/admin">Admin Portal — Signups</a></li>
+            <li><a href="#donate" onclick="switchView('donate')">Endowment Giving</a></li>
+            <li><a href="/#contact" onclick="switchView('contact')">Secretariat Offices</a></li>
+            <li><a href="/landing">Campaign Landing Page</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Monthly Dispatch</h4>
+          <p style="font-size:0.84rem; color:#b5c7bf; margin-bottom:1rem;">
+            Receive our quarterly executive journal and event notices.
+          </p>
+          <form onsubmit="handleNewsletterSubmit(event)">
+            <input type="email" placeholder="Your email address" required style="width:100%; padding:0.6rem 0.8rem; border-radius:4px; border:1px solid #234d3d; background:#08271e; color:#fff; font-size:0.85rem; margin-bottom:0.5rem; outline:none;">
+            <button type="submit" class="btn btn-gold btn-sm" style="width:100%;">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <div>
+          © 2026 Ghanaian Professionals Network (GhPN). All Rights Reserved.
+        </div>
+        <div>
+          Republic of Ghana • Freedom & Justice
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- =========================================================================
+       MODALS
+       ========================================================================= -->
+
+  <!-- Modal 1: Join Membership -->
+  <div class="modal-backdrop" id="modal-join">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title">GhPN Membership Enrollment</h3>
+        <button class="modal-close-btn" onclick="closeModal('modal-join')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form onsubmit="handleJoinSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">First Name *</label>
+              <input type="text" class="form-control" required placeholder="Kwame">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Last Name *</label>
+              <input type="text" class="form-control" required placeholder="Mensah">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Email Address *</label>
+            <input type="email" class="form-control" required placeholder="kwame@example.com">
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Phone / WhatsApp *</label>
+              <input type="tel" class="form-control" required placeholder="+233 24 000 0000">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Primary Sector *</label>
+              <select class="form-control" required>
+                <option value="">Select Field</option>
+                <option>Medicine & Healthcare</option>
+                <option>Technology & Engineering</option>
+                <option>Law & Governance</option>
+                <option>Banking & Finance</option>
+                <option>Academia & Science</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Membership Category *</label>
+            <select class="form-control" id="membershipTierSelect" required>
+              <option value="Associate">Associate (₵150 / yr)</option>
+              <option value="Professional" selected>Full Professional (₵450 / yr)</option>
+              <option value="Fellow">Executive Fellow (₵1,200 / yr)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Chapter Location *</label>
+            <select class="form-control" required>
+              <option>Accra (Greater Accra)</option>
+              <option>Kumasi (Ashanti Region)</option>
+              <option>Takoradi (Western Region)</option>
+              <option>Diaspora - United Kingdom</option>
+              <option>Diaspora - North America</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg" style="width:100%;">Submit Enrollment</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: RSVP Adinkra Ball -->
+  <div class="modal-backdrop" id="modal-rsvp">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title">Tickets • Adinkra Ball 2026</h3>
+        <button class="modal-close-btn" onclick="closeModal('modal-rsvp')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size:0.88rem; color:var(--color-ink-muted); margin-bottom:1.4rem; padding:0.7rem 0.9rem; background:var(--color-gold-light); border:1px solid var(--color-gold-border); border-radius:var(--radius-sm);">
+          Saturday, April 11, 2026 • 6:00 PM • Dallas North Tollway, Dallas, Texas
+        </p>
+        <form onsubmit="handleRsvpSubmit(event)">
+          <div class="form-group">
+            <label class="form-label">Admission Type *</label>
+            <select class="form-control" id="rsvpTicketType" required>
+              <option>General Admission ($150)</option>
+              <option>VIP Admission ($350)</option>
+              <option>Patron Table — 8 Seats ($2,000)</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Contact Name *</label>
+              <input type="text" class="form-control" required placeholder="Ama Asare">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email *</label>
+              <input type="email" class="form-control" required placeholder="ama@company.com">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Phone Number *</label>
+              <input type="tel" class="form-control" required placeholder="+1 214 000 0000">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Number of Guests *</label>
+              <input type="number" min="1" max="20" value="1" class="form-control" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Dietary / Seating Notes</label>
+            <input type="text" class="form-control" placeholder="Optional: dietary restrictions, table companions...">
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg" style="width:100%;">Reserve My Seat(s)</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2b: Sponsorship Package -->
+  <div class="modal-backdrop" id="modal-sponsor">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title">Sponsorship Commitment • Adinkra Ball 2026</h3>
+        <button class="modal-close-btn" onclick="closeModal('modal-sponsor')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form onsubmit="handleSponsorSubmit(event)">
+          <div class="form-group">
+            <label class="form-label">Sponsorship Package *</label>
+            <select class="form-control" id="sponsorPackageSelect" required>
+              <option>Supporter ($500)</option>
+              <option>Collaborator ($1,000)</option>
+              <option>Sankofa ($2,500)</option>
+              <option>Nyansapo ($5,000)</option>
+              <option>Akofena ($7,500)</option>
+              <option>Adinkrahene ($10,000)</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Company / Organization *</label>
+              <input type="text" class="form-control" required placeholder="Accra Precision Engineering Ltd">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Contact Person *</label>
+              <input type="text" class="form-control" required placeholder="Kwame Mensah">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Email *</label>
+              <input type="email" class="form-control" required placeholder="sponsor@company.com">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Phone *</label>
+              <input type="tel" class="form-control" required placeholder="+1 214 000 0000">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Partnership Notes</label>
+            <textarea class="form-control" rows="3" placeholder="Billing details, logo assets, seating preferences, custom arrangements..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg" style="width:100%;">Submit Sponsorship Request</button>
+          <p style="font-size:0.78rem; color:var(--color-ink-muted); text-align:center; margin-top:0.7rem;">
+            Our Events Committee will confirm your package and payment instructions within 24 hours.
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: Mentorship -->
+  <div class="modal-backdrop" id="modal-mentor">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title">Mentorship Cohort Intake</h3>
+        <button class="modal-close-btn" onclick="closeModal('modal-mentor')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form onsubmit="handleMentorSubmit(event)">
+          <div class="form-group">
+            <label class="form-label">Role Preference *</label>
+            <select class="form-control" required>
+              <option value="Mentee">Applying as a MENTEE (Seeking career coaching)</option>
+              <option value="Mentor">Volunteering as a MENTOR (Senior practitioner)</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Full Name *</label>
+              <input type="text" class="form-control" required placeholder="Kojo Frimpong">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email *</label>
+              <input type="email" class="form-control" required placeholder="kojo@example.com">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Current Organization / University & Role *</label>
+            <input type="text" class="form-control" required placeholder="e.g. Senior Resident Doctor / Final Year Computer Science">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Primary Professional Focus Area *</label>
+            <textarea class="form-control" rows="3" required placeholder="Outline your key development goals for the 6-month cycle..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg" style="width:100%;">Submit Mentorship Profile</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4: Add Business Listing -->
+  <div class="modal-backdrop" id="modal-add-business">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title">Register Practice or Enterprise</h3>
+        <button class="modal-close-btn" onclick="closeModal('modal-add-business')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form onsubmit="handleAddBusinessSubmit(event)">
+          <div class="form-group">
+            <label class="form-label">Company / Practice Legal Name *</label>
+            <input type="text" class="form-control" required placeholder="e.g. Accra Precision Engineering Ltd">
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Sector *</label>
+              <select class="form-control" required>
+                <option>Legal</option>
+                <option>Tech</option>
+                <option>Healthcare</option>
+                <option>Finance</option>
+                <option>Engineering</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Location (City / District) *</label>
+              <input type="text" class="form-control" required placeholder="Airport City, Accra">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Official Phone *</label>
+              <input type="tel" class="form-control" required placeholder="+233 30 000 0000">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Website</label>
+              <input type="url" class="form-control" placeholder="https://example.com">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Practice Summary *</label>
+            <textarea class="form-control" rows="3" required placeholder="Brief description of specialized services and accreditations..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg" style="width:100%;">Submit Practice for Directory</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 5: Pay Dues -->
+  <div class="modal-backdrop" id="modal-pay-dues">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title">Member Dues Renewal</h3>
+        <button class="modal-close-btn" onclick="closeModal('modal-pay-dues')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form onsubmit="handlePayDuesSubmit(event)">
+          <div class="form-group">
+            <label class="form-label">Member ID or Registered Email *</label>
+            <input type="text" class="form-control" required placeholder="GHP-XXXXXX or kwame@email.com">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Annual Dues Tier *</label>
+            <select class="form-control" required>
+              <option>Associate Annual Renewal (₵150)</option>
+              <option selected>Full Professional Renewal (₵450)</option>
+              <option>Executive Fellow Renewal (₵1,200)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Payment Channel *</label>
+            <select class="form-control" required>
+              <option>MTN MoMo / Telecel Cash / AT Money</option>
+              <option>Visa / Mastercard / GHIPSS</option>
+              <option>Direct Bank Transfer (Stanbic Bank Ghana)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Account / MoMo Number *</label>
+            <input type="text" class="form-control" required placeholder="024 XXX XXXX or Card Number">
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg" style="width:100%;">Submit Payment & Receive e-Receipt</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 6: Scholarship Application -->
+  <div class="modal-backdrop" id="modal-scholarship-apply">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title">Academic Scholarship Application</h3>
+        <button class="modal-close-btn" onclick="closeModal('modal-scholarship-apply')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form onsubmit="handleScholarshipSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Student Name *</label>
+              <input type="text" class="form-control" required placeholder="Kwabena Asante">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Institutional Email *</label>
+              <input type="email" class="form-control" required placeholder="kwabena@st.knust.edu.gh">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">University *</label>
+              <input type="text" class="form-control" required placeholder="KNUST / UG Legon / Ashesi">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Program & Academic Year *</label>
+              <input type="text" class="form-control" required placeholder="BSc Electrical Engineering, Level 300">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Statement of Purpose & Financial Circumstance *</label>
+            <textarea class="form-control" rows="4" required placeholder="Outline your academic record and how this grant will support your studies..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg" style="width:100%;">Submit to Scholarship Committee</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
