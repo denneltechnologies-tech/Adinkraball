@@ -6,10 +6,10 @@
   <title>GhPN Adinkra Ball 2026 — Ghanaian Professionals Network</title>
   <meta name="description" content="The 5th Edition GhPN Adinkra Ball — April 11, 2026 in Dallas, Texas. An enchanting showcase of Ghanaian excellence. Purchase tickets, become a sponsor, and fund GhPN Scholarships.">
   
-  <!-- Classical Editorial Fonts: Playfair Display + Plus Jakarta Sans -->
+  <!-- Classical Editorial & Royal Gala Fonts: Cinzel + Playfair Display + Plus Jakarta Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" href="styles.css">
   
@@ -98,15 +98,38 @@
             Adinkra Ball melds tradition, celebration, and empowerment — an evening that honors our trailblazing professionals while investing in our future leaders through the GhPN Scholarship. Vibrant music, captivating performances, and culinary delights, all underscoring our shared heritage.
           </p>
 
-          <!-- Live Countdown -->
-          <div style="display:flex; align-items:baseline; gap:0.85rem; flex-wrap:wrap; margin:1.6rem 0 1.8rem; padding:1rem 1.3rem; background:var(--color-canvas-pure); border:var(--border-hairline); border-left:3px solid var(--color-gold-deep); border-radius:var(--radius-sm);">
-            <span style="font-size:0.72rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:var(--color-ink-muted); width:100%;">Countdown to the Ball</span>
-            <span id="cd-days" style="font-family:var(--font-serif); font-size:2rem; font-weight:700; color:var(--color-green-deep);">--</span><span style="font-size:0.78rem; color:var(--color-ink-muted);">Days</span>
-            <span id="cd-hours" style="font-family:var(--font-serif); font-size:2rem; font-weight:700; color:var(--color-green-deep);">--</span><span style="font-size:0.78rem; color:var(--color-ink-muted);">Hrs</span>
-            <span id="cd-minutes" style="font-family:var(--font-serif); font-size:2rem; font-weight:700; color:var(--color-green-deep);">--</span><span style="font-size:0.78rem; color:var(--color-ink-muted);">Mins</span>
-            <span id="cd-seconds" style="font-family:var(--font-serif); font-size:2rem; font-weight:700; color:var(--color-gold-deep);">--</span><span style="font-size:0.78rem; color:var(--color-ink-muted);">Secs</span>
-            <span style="width:100%; font-size:0.82rem; color:var(--color-ink-secondary);">Saturday, April 11, 2026 • 6:00 PM • Dallas, Texas</span>
+          <!-- Executive Luxury Digital Countdown Box -->
+          <div style="background:var(--color-card-bg); backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px); border:var(--border-medium); border-radius:var(--radius-lg); padding:1.35rem 1.75rem; box-shadow:var(--shadow-card); max-width:540px; margin: 1.8rem 0 2rem;">
+            <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:0.85rem;">
+              <span style="font-family:var(--font-royal); font-size:0.78rem; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:var(--color-gold-deep);">✦ Gala Countdown</span>
+              <span style="display:inline-flex; align-items:center; gap:0.4rem; font-size:0.74rem; font-weight:700; padding:0.25rem 0.75rem; border-radius:var(--radius-full); background:rgba(212,175,55,0.15); color:var(--color-gold-deep); border:1px solid rgba(212,175,55,0.35);">
+                <span style="width:7px; height:7px; border-radius:50%; background:#22c55e; box-shadow:0 0 6px #22c55e;"></span>
+                Live • April 11, 2026
+              </span>
+            </div>
+            <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:0.75rem;">
+              <div style="background:var(--obsidian-gradient); border:1px solid rgba(212,175,55,0.3); border-radius:var(--radius-md); padding:0.85rem 0.5rem; text-align:center; box-shadow:inset 0 1px 0 rgba(255,255,255,0.15), 0 4px 12px rgba(0,0,0,0.25);">
+                <span id="cd-days" style="font-family:var(--font-royal); font-size:2rem; font-weight:800; line-height:1; background:var(--gold-gradient); -webkit-background-clip:text; -webkit-text-fill-color:transparent; display:block; margin-bottom:0.3rem;">--</span>
+                <span style="font-size:0.65rem; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#c7d2cc;">Days</span>
+              </div>
+              <div style="background:var(--obsidian-gradient); border:1px solid rgba(212,175,55,0.3); border-radius:var(--radius-md); padding:0.85rem 0.5rem; text-align:center; box-shadow:inset 0 1px 0 rgba(255,255,255,0.15), 0 4px 12px rgba(0,0,0,0.25);">
+                <span id="cd-hours" style="font-family:var(--font-royal); font-size:2rem; font-weight:800; line-height:1; background:var(--gold-gradient); -webkit-background-clip:text; -webkit-text-fill-color:transparent; display:block; margin-bottom:0.3rem;">--</span>
+                <span style="font-size:0.65rem; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#c7d2cc;">Hours</span>
+              </div>
+              <div style="background:var(--obsidian-gradient); border:1px solid rgba(212,175,55,0.3); border-radius:var(--radius-md); padding:0.85rem 0.5rem; text-align:center; box-shadow:inset 0 1px 0 rgba(255,255,255,0.15), 0 4px 12px rgba(0,0,0,0.25);">
+                <span id="cd-minutes" style="font-family:var(--font-royal); font-size:2rem; font-weight:800; line-height:1; background:var(--gold-gradient); -webkit-background-clip:text; -webkit-text-fill-color:transparent; display:block; margin-bottom:0.3rem;">--</span>
+                <span style="font-size:0.65rem; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#c7d2cc;">Minutes</span>
+              </div>
+              <div style="background:var(--obsidian-gradient); border:1px solid rgba(212,175,55,0.3); border-radius:var(--radius-md); padding:0.85rem 0.5rem; text-align:center; box-shadow:inset 0 1px 0 rgba(255,255,255,0.15), 0 4px 12px rgba(0,0,0,0.25);">
+                <span id="cd-seconds" style="font-family:var(--font-royal); font-size:2rem; font-weight:800; line-height:1; background:var(--gold-gradient); -webkit-background-clip:text; -webkit-text-fill-color:transparent; display:block; margin-bottom:0.3rem;">--</span>
+                <span style="font-size:0.65rem; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#c7d2cc;">Seconds</span>
+              </div>
+            </div>
+            <p style="margin-top:0.85rem; font-size:0.82rem; color:var(--color-ink-muted); text-align:center;">
+              Saturday, April 11, 2026 • 6:00 PM CST • Dallas, Texas
+            </p>
           </div>
+
 
           <div class="hero-cta-group">
             <button class="btn btn-primary btn-lg" onclick="openModal('modal-rsvp')">

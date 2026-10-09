@@ -127,8 +127,10 @@ function initCountdown() {
     const distance = targetDate - now;
 
     if (distance < 0) {
-      const daysEl = document.getElementById('cd-days');
-      if (daysEl) daysEl.innerText = '00';
+      document.querySelectorAll('#cd-days, [data-cd="days"]').forEach(el => el.innerText = '00');
+      document.querySelectorAll('#cd-hours, [data-cd="hours"]').forEach(el => el.innerText = '00');
+      document.querySelectorAll('#cd-minutes, [data-cd="minutes"]').forEach(el => el.innerText = '00');
+      document.querySelectorAll('#cd-seconds, [data-cd="seconds"]').forEach(el => el.innerText = '00');
       return;
     }
 
@@ -137,15 +139,10 @@ function initCountdown() {
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    const dEl = document.getElementById('cd-days');
-    const hEl = document.getElementById('cd-hours');
-    const mEl = document.getElementById('cd-minutes');
-    const sEl = document.getElementById('cd-seconds');
-
-    if (dEl) dEl.innerText = String(days).padStart(2, '0');
-    if (hEl) hEl.innerText = String(hours).padStart(2, '0');
-    if (mEl) mEl.innerText = String(minutes).padStart(2, '0');
-    if (sEl) sEl.innerText = String(seconds).padStart(2, '0');
+    document.querySelectorAll('#cd-days, [data-cd="days"]').forEach(el => el.innerText = String(days).padStart(2, '0'));
+    document.querySelectorAll('#cd-hours, [data-cd="hours"]').forEach(el => el.innerText = String(hours).padStart(2, '0'));
+    document.querySelectorAll('#cd-minutes, [data-cd="minutes"]').forEach(el => el.innerText = String(minutes).padStart(2, '0'));
+    document.querySelectorAll('#cd-seconds, [data-cd="seconds"]').forEach(el => el.innerText = String(seconds).padStart(2, '0'));
   }
 
   update();
